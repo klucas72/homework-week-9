@@ -18,6 +18,16 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'Please enter your email.',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("You must enter an email.")
+            }
+        }
+    },
+    {
+        type: 'input',
         message: 'What is the Projet Title?',
         name: 'title',
         validate: function (answer) {
