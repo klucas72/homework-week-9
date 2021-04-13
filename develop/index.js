@@ -68,7 +68,14 @@ const questions = [
         message: 'Please provide badge links that you want applied to your project or program.'
     },
 ];
+//Asking questions
+function init() {
+    inquirer.prompt(questions).then(answers => {
+        generateREADME(answers);
+    });
+}
 
+//generate readme file
 function generateREADME(answers) {
     return `# ${answers.title}
 
@@ -106,8 +113,6 @@ function generateREADME(answers) {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
 
-// TODO: Create a function to initialize app
-function init() { }
 
 // Function call to initialize app
 init();
