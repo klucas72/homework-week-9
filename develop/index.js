@@ -21,39 +21,26 @@ const questions = [
         type: 'input',
         message: 'What is the Projet Title?',
         name: 'title',
-        // validate: function (answer) {
-        //     if (answer.length < 1) {
-        //         return console.log("You must enter the Project Title of your README");
-        //     }
-        // }
     },
     {
         type: 'input',
         message: 'Please enter a Description.',
         name: 'description',
-        // validate: function (answer) {
-        //     if (answer.length < 1) {
-        //         return console.log("You must enter a description")
-        //     }
-        // }
     },
     {
         type: 'input',
         name: 'installation',
         message: 'Please explain how the user would install program (if necessary)',
-        //validation not required if no installation instructions are needed
     },
     {
         type: 'input',
         name: 'usage',
         message: 'Please provide instructions on the use of the program and examples in this section'
-        //validation not required if no usage instructions are needed
     },
     {
         type: 'input',
         name: 'credits',
         message: 'Please list any credits or contributors to your program or project.',
-        //validation not required if no credits or contributors were used
     },
     {
         type: 'list',
