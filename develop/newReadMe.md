@@ -1,4 +1,4 @@
-# dfda
+# Homework-week-9
     
     ## Table of Contents
     * [Description](#description) 
@@ -10,16 +10,16 @@
     * [Questions](#questions)
     
     ### Description
-    * df;dsalkfjls
+    * Created a good README Generator for future use on homework and projects.  Javascript driven program will generate a README after answering appropriate questions for the generator.
     
     ## Installation
-    * ;fdlfkj
+    * To install the generator, copy the develop folder of this homework to the appropriate directory.  From there, access the folder with a command line tool such as bash or vscode.
     
     ## Usage
-    * ds;fldf
+    * To use program type node index.js at the command prompt in the develop directory to launch program.  Answer the appropriate questions to generate a readme for use.
     
     ## Credits
-    * ;dslfd
+    * N/A
     
     ## License
     * Licensed by mit

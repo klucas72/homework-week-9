@@ -91,7 +91,7 @@ function generateREADME(answers) {
     * For any questions, concerns, or additional help, please contact ${answers.email}.`
 }
 
-// TODO: Create a function to write README file
+//function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
@@ -104,3 +104,4 @@ function init() {
 }
 // Function call to initialize app
 init();
+
