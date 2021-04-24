@@ -60,35 +60,35 @@ const questions = [
 function generateREADME(answers) {
     return `# ${answers.title}
     
-    ## Table of Contents
-    * [Description](#description) 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Badge](#badge)
-    * [Questions](#questions)
+## Table of Contents
+* [Description](#description) 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badge](#badge)
+* [Questions](#questions)
     
-    ### Description
-    * ${answers.description}
+## Description
+* ${answers.description}
     
-    ## Installation
-    * ${answers.installation}
+## Installation
+* ${answers.installation}
     
-    ## Usage
-    * ${answers.usage}
+## Usage
+* ${answers.usage}
     
-    ## Credits
-    * ${answers.credits}
+## Credits
+* ${answers.credits}
     
-    ## License
-    * Licensed by ${answers.license}
+## License
+* Licensed by ${answers.license}
     
-    ## Badge
-    * ${answers.badge}
+## Badge
+* ${answers.badge}
     
-    ## Questions
-    * For any questions, concerns, or additional help, please contact ${answers.email}.`
+## Questions
+* For any questions, concerns, or additional help, please contact ${answers.email}.`
 }
 
 //function to write README file
