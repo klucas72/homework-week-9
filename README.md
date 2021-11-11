@@ -27,7 +27,7 @@
 * Licensed by mit
     
 ## Badge
-* [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE
+* [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
     
 ## Questions
 * For any questions, concerns, or additional help, please contact klucas72@hotmail.com.
